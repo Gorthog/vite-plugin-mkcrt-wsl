@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "sudo ./port-forwarding.sh && vite --host --debug --port 3000 --open https://dev.cynet.com",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
